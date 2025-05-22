@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms & Conditions</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Spartan', sans-serif;
+        }
+        h1 {
+            font-size: 50px;
+            line-height: 64px;
+            color: #222;
+        }
+
+        h2 {
+            font-size: 46px;
+            line-height: 54px;
+            color: #222;
+        }
+
+        h4 {
+            font-size: 20px;
+            color: #222;
+        }
+
+        p {
+            font-size: 16px;
+            color: #465b52;
+            margin: 15px 0 20px 0;
+        }
+
+        .section-p1 {
+            padding: 40px 80px;
+        }
+
+        /* Terms & Conditions Section */
+        #terms-conditions {
+            background-color: white;
+            max-width: 900px;
+            margin: 30px auto;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #terms-conditions h1 {
+            font-size: 36px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #terms-conditions p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        #terms-conditions ul {
+            margin-left: 20px;
+            list-style: disc;
+        }
+
+        #terms-conditions ul li {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        #terms-conditions a {
+            font-weight: bold;
+            color: #3498db;
+        }
+
+        /* Header */
+        #header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 80px;
+            background: #e3e6f3;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+            z-index: 999;
+            position: sticky;
+            top: 0;
+            left: 0;
+        }
+
+        #navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #navbar li {
+            list-style: none;
+            padding: 0 20px;
+            position: relative;
+        }
+
+        #navbar li a {
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a1a1a;
+            transition: 0.3s ease;
+        }
+
+        #navbar li a:hover,
+        #navbar li a.active {
+            color: #088878;
+        }
+
+        #navbar li a.active::after,
+        #navbar li a:hover::after {
+            content: "";
+            width: 30%;
+            height: 2px;
+            background: #088178;
+            position: absolute;
+            bottom: -4px;
+            left: 20px;
+        }
+
+        /* Footer */
+        footer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        footer .col {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+
+        footer .logo {
+            margin-bottom: 30px;
+        }
+
+        footer h4 {
+            font-size: 14px;
+            padding-bottom: 20px;
+        }
+
+        footer p {
+            font-size: 13px;
+            margin: 0 0 8px 0;
+        }
+
+        footer a {
+            font-size: 13px;
+            text-decoration: none;
+            color: #222;
+            margin-top: 20px;
+        }
+
+        footer .follow i {
+            color: #465b52;
+            padding-right: 4px;
+            cursor: pointer;
+        }
+
+        footer .follow i:hover,
+        footer a:hover {
+            color: #088178;
+        }
+    </style>
+</head>
+<body>
+
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="terms-conditions">
+        <div class="container">
+            <h1>Terms & Conditions</h1>
+            <p>Welcome to E-Shop. By accessing and using our website, you agree to the following terms and conditions. Please read them carefully.</p>
+
+            <h2>1. Acceptance of Terms</h2>
+            <p>By using our website, you agree to be bound by these Terms & Conditions, our Privacy Policy, and any applicable laws and regulations. If you disagree with any part of these terms, you must not use our services.</p>
+
+            <h2>2. Products and Services</h2>
+            <p>We offer various products for sale on our website. All products are subject to availability and may be modified or discontinued at any time. Prices and descriptions of the products are subject to change without notice.</p>
+
+            <h2>3. Orders</h2>
+            <p>By placing an order through our website, you are making an offer to purchase the products. Once your order has been placed, you will receive an order confirmation email. This email does not constitute acceptance of your order, and we reserve the right to cancel or amend any order at our discretion.</p>
+
+            <h2>4. Shipping and Delivery</h2>
+            <p>Delivery charges and estimated delivery times will be provided at the time of checkout. We make every effort to ensure timely delivery, but we are not responsible for delays caused by external factors, including shipping carriers and customs procedures.</p>
+
+            <h2>5. Returns and Refunds</h2>
+            <p>If you are not satisfied with your purchase, you can return the items within 30 days of receipt. Please refer to our <a href="returns-policy.html">Returns Policy</a> for detailed instructions. Refunds will be processed to the original payment method.</p>
+
+            <h2>6. Payment</h2>
+            <p>We accept various forms of payment, including credit cards, debit cards, and PayPal. Payments must be made in full before your order will be shipped.</p>
+
+            <h2>7. Intellectual Property</h2>
+            <p>All content on our website, including text, images, logos, and trademarks, is owned by E-Shop or its affiliates. You are not permitted to use, copy, or reproduce any content without our express permission.</p>
+
+            <h2>8. Limitation of Liability</h2>
+            <p>We are not liable for any direct, indirect, incidental, or consequential damages arising from the use of our website or the purchase of products. Your sole remedy for dissatisfaction with our services is to stop using the website.</p>
+
+            <h2>9. Governing Law</h2>
+            <p>These Terms & Conditions are governed by the laws of [Your Country]. Any disputes arising under these terms shall be resolved in the appropriate courts of [Your Country].</p>
+
+            <h2>10. Modifications to Terms & Conditions</h2>
+            <p>We reserve the right to update these Terms & Conditions at any time. Changes will be posted on this page with an updated date. By continuing to use our services, you accept any changes to these terms.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+    
+
+        
+    </footer>
+
+</body>
+</html>

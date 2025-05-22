@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Information</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Spartan', sans-serif;
+        }
+        h1 {
+            font-size: 50px;
+            line-height: 64px;
+            color: #222;
+        }
+
+        h2 {
+            font-size: 46px;
+            line-height: 54px;
+            color: #222;
+        }
+
+        h4 {
+            font-size: 20px;
+            color: #222;
+        }
+
+        p {
+            font-size: 16px;
+            color: #465b52;
+            margin: 15px 0 20px 0;
+        }
+
+        .section-p1 {
+            padding: 40px 80px;
+        }
+
+        /* Delivery Information Section */
+        #delivery-info {
+            background-color: white;
+            max-width: 900px;
+            margin: 30px auto;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #delivery-info h1 {
+            font-size: 36px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #delivery-info p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        #delivery-info ul {
+            margin-left: 20px;
+            list-style: disc;
+        }
+
+        #delivery-info ul li {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        #delivery-info a {
+            font-weight: bold;
+            color: #3498db;
+        }
+
+        /* Header */
+        #header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 80px;
+            background: #e3e6f3;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+            z-index: 999;
+            position: sticky;
+            top: 0;
+            left: 0;
+        }
+
+        #navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #navbar li {
+            list-style: none;
+            padding: 0 20px;
+            position: relative;
+        }
+
+        #navbar li a {
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a1a1a;
+            transition: 0.3s ease;
+        }
+
+        #navbar li a:hover,
+        #navbar li a.active {
+            color: #088878;
+        }
+
+        #navbar li a.active::after,
+        #navbar li a:hover::after {
+            content: "";
+            width: 30%;
+            height: 2px;
+            background: #088178;
+            position: absolute;
+            bottom: -4px;
+            left: 20px;
+        }
+
+        /* Footer */
+        footer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        footer .col {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+
+        footer .logo {
+            margin-bottom: 30px;
+        }
+
+        footer h4 {
+            font-size: 14px;
+            padding-bottom: 20px;
+        }
+
+        footer p {
+            font-size: 13px;
+            margin: 0 0 8px 0;
+        }
+
+        footer a {
+            font-size: 13px;
+            text-decoration: none;
+            color: #222;
+            margin-top: 20px;
+        }
+
+        footer .follow i {
+            color: #465b52;
+            padding-right: 4px;
+            cursor: pointer;
+        }
+
+        footer .follow i:hover,
+        footer a:hover {
+            color: #088178;
+        }
+    </style>
+</head>
+<body>
+
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="delivery-info">
+        <div class="container">
+            <h1>Delivery Information</h1>
+            <p>At E-Shop, we strive to deliver your orders as quickly and safely as possible. Here’s everything you need to know about our delivery policies.</p>
+
+            <h2>1. Delivery Times</h2>
+            <p>We aim to deliver all orders within 5-7 business days, depending on the location of the delivery. During peak seasons, delivery times may vary. If there are any delays, we will notify you as soon as possible.</p>
+
+            <h2>2. Delivery Charges</h2>
+            <p>We offer free shipping on all orders above $50. For orders below $50, a flat shipping fee of $5 will be applied at checkout.</p>
+
+            <h2>3. Delivery Locations</h2>
+            <p>We currently deliver to most locations within the United States and internationally. For international orders, please check the shipping information at checkout to confirm availability for your region.</p>
+
+            <h2>4. Order Tracking</h2>
+            <p>Once your order has been dispatched, you will receive an email with tracking information. You can use this information to track your order online.</p>
+
+            <h2>5. Order Issues</h2>
+            <p>If you have any issues with your order, such as receiving the wrong item or damaged goods, please contact us immediately at <a href="mailto:saikal.shakirova@alatoo.edu.kg">saikal.shakirova@alatoo.edu.kg</a> for assistance.</p>
+
+            <h2>6. Returns and Exchanges</h2>
+            <p>If you are not completely satisfied with your purchase, we offer returns and exchanges within 30 days of receiving your order. Please visit our <a href="returns-policy.html">Returns Policy</a> page for more details.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            
+        </div>
+
+        
+    </footer>
+
+</body>
+</html>
